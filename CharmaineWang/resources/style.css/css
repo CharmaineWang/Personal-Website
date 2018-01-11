@@ -1,0 +1,479 @@
+/* --------------------------------- */
+/* BASIC SETUP*/
+/* --------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+  z-index: 1; }
+
+html {
+  color: #ffffff;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll; }
+
+.play {
+  background-color: #0f1d25; }
+
+.content-info {
+  z-index: 1; }
+
+.all-content {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%; }
+
+.mylogo {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 50px; }
+
+/* shape */
+.shape {
+  position: fixed;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  top: 50%;
+  margin-top: -150px;
+  left: 50%;
+  margin-left: -150px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #e92a66 0%, #febc58 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 0; }
+
+.Sexperiences {
+  background: linear-gradient(to right, #febc58 0%, #9dd6c8 100%); }
+
+.Splay {
+  background: linear-gradient(to right, #9dd6c8 0%, #7776b8 100%); }
+
+.Scontact {
+  background: linear-gradient(to right, #7776b8 0%, #e92a66 100%); }
+
+.introduction {
+  width: 70%;
+  margin-bottom: 0px; }
+
+.introductionTwo {
+  width: 100%;
+  margin-top: 10px;
+  text-align: right;
+  margin-bottom: 0px; }
+
+.description {
+  width: 100%;
+  text-align: left;
+  margin-top: 5px;
+  letter-spacing: 2px; }
+
+.descriptionTwo {
+  text-align: right;
+  width: 100%;
+  margin-top: 5px;
+  letter-spacing: 2px; }
+
+.container {
+  position: relative;
+  z-index: 100; }
+
+.main-section {
+  margin-top: 10%; }
+
+/* --------------------------------- */
+/* DETAILED CONTENT*/
+/* --------------------------------- */
+.experiences-cont-detail {
+  position: relative;
+  margin-top: 5%;
+  overflow: hidden; }
+  .experiences-cont-detail .change-tab {
+    position: fixed;
+    color: #4D4D4D;
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+    margin-top: 20%;
+    width: 10%;
+    text-align: right; }
+    .experiences-cont-detail .change-tab .fa-long-arrow-right {
+      color: #9dd6c8; }
+  .experiences-cont-detail .change-tab:hover {
+    color: #8e8c8c; }
+  .experiences-cont-detail h1 {
+    text-align: justify; }
+  .experiences-cont-detail h2 {
+    font-family: "Nunito", sans-serif;
+    text-align: left;
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 20%; }
+  .experiences-cont-detail h4 {
+    text-decoration: none;
+    font-family: "Nunito", sans-serif;
+    text-align: justify;
+    font-size: 15px;
+    color: #000000;
+    line-height: 1.5em;
+    margin-bottom: 10%; }
+
+.detail-img-cont {
+  align-content: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 60%; }
+  .detail-img-cont img {
+    object-fit: fill;
+    width: 100%; }
+
+.bottom-nav {
+  margin-top: 10%;
+  margin-bottom: 10%; }
+
+.cont-img {
+  align-content: right;
+  margin-left: 17.5%;
+  margin-top: 8%;
+  margin-bottom: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 65%;
+  height: 30%; }
+  .cont-img img {
+    object-fit: fill;
+    height: 100%; }
+
+/* --------------------------------- */
+/* NAVBAR*/
+/* --------------------------------- */
+/* basic */
+.navigationBar {
+  border-width: 1px 0;
+  list-style: none;
+  margin-top: 0px;
+  padding: 10px 0px 0px 0px;
+  text-align: center; }
+
+.navigationBar li {
+  display: inline; }
+
+.navigationBar a {
+  font-family: "Nunito", sans-serif;
+  text-transform: lowercase;
+  display: inline-block;
+  padding-top: 15px;
+  color: #2E4052;
+  text-align: center;
+  width: 100px;
+  /* fixed width */
+  font-size: 15px;
+  text-decoration: none; }
+
+.navigationBar a:hover {
+  text-decoration: none;
+  color: #9f9e9c; }
+
+.navLine {
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 0;
+  width: 40%;
+  display: inline-block;
+  height: 2.5px;
+  background: linear-gradient(to right, #e92a66 0%, #febc58 100%); }
+
+.experiences .navLine {
+  background: linear-gradient(to right, #febc58 0%, #9dd6c8 100%); }
+
+.experiences-cont .navLine {
+  background: linear-gradient(to right, #febc58 0%, #9dd6c8 100%); }
+
+.contact .navLine {
+  background: linear-gradient(to right, #7776b8 0%, #e92a66 100%); }
+
+/* play */
+.play .navigationBar a {
+  color: #fff; }
+  .play .navigationBar a:hover {
+    color: #9f9e9c; }
+.play .navLine {
+  background: linear-gradient(to right, #9dd6c8 0%, #7776b8 100%); }
+
+/* TYPOGRAPHY */
+.play .introduction h1 {
+  color: #fff; }
+.play .introductionTwo h1 {
+  color: #fff; }
+.play .socials {
+  color: #fff; }
+.play .socials-icon {
+  color: #fff; }
+.play .socials-icon:hover {
+  color: #e92a66; }
+.play .description h2 {
+  color: #fff; }
+.play .description h3 {
+  color: #fff; }
+
+body h1 {
+  font-family: "Nunito", sans-serif;
+  color: #2E4052;
+  font-size: 55px;
+  text-align: left;
+  letter-spacing: 2px; }
+
+.introductionTwo h1 {
+  font-family: "Nunito", sans-serif;
+  color: #2E4052;
+  font-size: 55px;
+  text-align: right;
+  letter-spacing: 2px; }
+
+.socials {
+  margin-top: 10PX;
+  padding-left: 1.7%;
+  color: #474747;
+  font-size: 1.1em; }
+
+.socials-icon {
+  margin-right: 35px;
+  color: #474747;
+  display: inline-block; }
+
+.socials-icon:hover {
+  color: #9f9e9c;
+  font-size: 1em;
+  cursor: pointer; }
+
+body h2 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Lucida Grande", sans-serif;
+  color: #4e4e5a;
+  font-size: 19px;
+  line-height: 100%; }
+
+body h3 {
+  font-family: "HelveticaNeue-ExtraBold", "Helvetica Neue Light", "Helvetica Neue", "Lucida Grande", sans-serif;
+  color: #2E4052;
+  font-style: italic;
+  font-size: 15px;
+  margin-top: 5%; }
+
+.descriptionTwo h2 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Lucida Grande", sans-serif;
+  color: #4e4e5a;
+  font-size: 15px;
+  line-height: 150%; }
+.descriptionTwo .socials-icon {
+  margin-left: 35px;
+  margin-right: 0px; }
+
+.experience-list {
+  margin-top: 10%; }
+
+.preview {
+  margin-right: 5%; }
+
+.preview h1 {
+  font-size: 35px; }
+
+.preview h2 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Lucida Grande", sans-serif;
+  margin-top: 20px;
+  letter-spacing: 1.2px;
+  word-spacing: 1.5px;
+  font-size: 13px;
+  font-weight: 100;
+  color: #000000; }
+
+.preview a {
+  color: #4D4D4D;
+  font-family: "Nunito", sans-serif 600i;
+  font-weight: 800;
+  position: relative;
+  margin-top: 20px; }
+
+.preview a:hover {
+  color: #8e8c8c;
+  text-decoration: none; }
+
+.fa-long-arrow-right {
+  color: #febc58;
+  font-size: 45px; }
+
+.fa-long-arrow-left {
+  color: #febc58;
+  font-size: 45px; }
+
+.experience-image {
+  align-content: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 0px 10px 0.5px rgba(232, 230, 230, 0.51);
+  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow: 0px 0px 10px 0.5px rgbargba(167, 167, 167, 0.51);
+  /* Firefox 3.5 - 3.6 */
+  box-shadow: 0px 0px 10px 0.5px rgbargba(167, 167, 167, 0.51);
+  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */ }
+
+.experience-image img {
+  object-fit: fill;
+  height: 110%;
+  width: 110%; }
+
+.hyperlink {
+  font-family: "HelveticaNeue-Bold", "Helvetica Neue Light", "Helvetica Neue", "Lucida Grande", sans-serif;
+  color: #2E4052; }
+
+.hyperlink:hover {
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0, 0, 0, 0.6) 30%, #000 50%, rgba(0, 0, 0, 0.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 2s infinite;
+  text-decoration: none; }
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%; }
+  to {
+    -webkit-mask-position: -50%; } }
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    bottom: -20%; }
+  to {
+    opacity: 1;
+    bottom: 0; } }
+.fade-in {
+  opacity: 0;
+  /* make things invisible upon start */
+  -webkit-animation: fadeIn ease-in 1;
+  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s; }
+
+.fade-in.one {
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  animation-delay: 0.3s; }
+
+.fade-in.two {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s; }
+
+.fade-in.three {
+  -webkit-animation-delay: 1.2s;
+  -moz-animation-delay: 1.2s;
+  animation-delay: 1.2s; }
+
+/*body border*/
+.websiteFrame {
+  position: fixed;
+  z-index: 990;
+  background-color: #EDECED; }
+
+.playFrame {
+  background-color: #9dd6c8; }
+
+#websiteFrameTop {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10px; }
+
+#websiteFrameRight {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 10px; }
+
+#websiteFrameBottom {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10px; }
+
+#websiteFrameLeft {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 10px; }
+
+.about #websiteFrameTop {
+  background: linear-gradient(to right, #febc58 0%, #e92a66 100%); }
+.about #websiteFrameRight {
+  background: #e92a66; }
+.about #websiteFrameBottom {
+  background: linear-gradient(to right, #febc58 0%, #e92a66 100%); }
+.about #websiteFrameLeft {
+  background: #febc58; }
+
+.experiences #websiteFrameTop {
+  background: linear-gradient(to right, #9dd6c8 0%, #febc58 100%); }
+.experiences #websiteFrameRight {
+  background: #febc58; }
+.experiences #websiteFrameBottom {
+  background: linear-gradient(to right, #9dd6c8 0%, #febc58 100%); }
+.experiences #websiteFrameLeft {
+  background: #9dd6c8; }
+
+.play #websiteFrameTop {
+  background: linear-gradient(to right, #7776b8 0%, #9dd6c8 100%); }
+.play #websiteFrameRight {
+  background: #9dd6c8; }
+.play #websiteFrameBottom {
+  background: linear-gradient(to right, #7776b8 0%, #9dd6c8 100%); }
+.play #websiteFrameLeft {
+  background: #7776b8; }
+
+.contact #websiteFrameTop {
+  background: linear-gradient(to right, #e92a66 0%, #7776b8 100%); }
+.contact #websiteFrameRight {
+  background: #7776b8; }
+.contact #websiteFrameBottom {
+  background: linear-gradient(to right, #e92a66 0%, #7776b8 100%); }
+.contact #websiteFrameLeft {
+  background: #e92a66; }
+
+/* #### Generated By: http://www.cufonfonts.com #### */
+@font-face {
+  font-family: 'Athelas Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Athelas Regular"), url("Athelas-Regular.woff") format("woff"); }
+/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=css.map */
