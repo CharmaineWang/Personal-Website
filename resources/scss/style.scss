@@ -91,7 +91,6 @@ html {
 
 .introductionTwo {
     width:100%;
-    margin-top:10px;
     text-align:right;
     margin-bottom:0px;
 }
@@ -104,9 +103,8 @@ html {
 }
 
 .descriptionTwo {
-    text-align:right;
     width:100%;
-    margin-top:5px;
+    margin-bottom:10%;
     letter-spacing: 2px;
 }
 
@@ -343,7 +341,7 @@ html {
 body h1 {
     font-family: $mainFont;
     color: $darkBlue;
-    font-size: 55px;
+    font-size: 50px;
     text-align:left;
     letter-spacing: 2px;
 }
@@ -351,7 +349,7 @@ body h1 {
 .introductionTwo h1 {
     font-family: $mainFont;
     color: $darkBlue;
-    font-size: 55px;
+    font-size: 50px;
     text-align:right;
     letter-spacing: 2px;
 }
@@ -378,7 +376,7 @@ body h1 {
 body h2{
     font-family: $HNL;
     color: #4e4e5a;
-    font-size: 19px;
+    font-size: 15px;
     line-height: 100%;
 }
 
@@ -394,7 +392,7 @@ body h3{
     h2{
     font-family: $HNL;
     color: #4e4e5a;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 150%;}
     .socials-icon {
     margin-left: 35px;
