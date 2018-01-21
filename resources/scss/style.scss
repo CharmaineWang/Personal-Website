@@ -48,6 +48,7 @@ html {
 }
 .mylogo{
     position:fixed;
+    z-index:999;
     top:30px;
     left:30px;
     width:50px;
@@ -124,7 +125,7 @@ html {
     
     position:relative;
     margin-top:5%;
-    overflow: hidden;
+    z-index:-1;
     .change-tab{
         position:fixed;
         color: #4D4D4D;
