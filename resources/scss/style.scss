@@ -155,7 +155,8 @@ html {
         position:relative;
         margin-top:20%;
         width: 10%;
-            text-align: right;
+        text-align: right;
+        z-index:1;
         .fa-long-arrow-right {
             color:#e0dfdf;
         }
